@@ -13,7 +13,7 @@ Clear-Host
 # Verificar si PHP está instalado
 if (-not (Get-Command php -ErrorAction SilentlyContinue)) {
     Write-Output 'El servidor no está instalado. Instalando...'
-    winget install --id PHP.PHP
+    winget install --id PHP.PHP.8.4
     Clear-Host
     Write-Output "Servidor instalado. Vuelva a ejecutar el script"
     Start-Sleep -Seconds 3
