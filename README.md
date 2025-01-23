@@ -5,6 +5,19 @@
 
 version : 0.0.0 https://replit.com/@StrAva1/Cheker-BszCC?v=1
 
+## Como utilizarlo
+### Ejecuta el siguiente comando EN LINUX (termux tambien es linux)
+
+```
+sudo chmod +x ./start.sh
+bash ./start.sh
+```
+### Ejecuta el siguiente comando EN WINDOWS 
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+./start.ps1
+```
 ### como funciona ?
 Utilizamos una api :  https://github.com/OshekharO/MASS-CC-CHECKER/blob/main/api.php 
 > Culla api es local podras validar 1000 tajetas por minuto..
